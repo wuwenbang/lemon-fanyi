@@ -1,0 +1,23 @@
+{
+  "name": "lemon-fanyi",
+  "version": "0.0.3",
+  "main": "dist/main.js",
+  "author": "wuwenbang",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {"fy":"dist/cli.js"},
+  "files": ["dist/**/*.js"],
+  "scripts": {
+    "dev": "ts-node-dev src/main.ts"
+  },
+  "dependencies": {
+    "@types/md5": "^2.3.1",
+    "axios": "^0.21.1",
+    "commander": "^7.2.0",
+    "md5": "^2.3.0",
+    "md5js": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^16.3.3"
+  }
+}
