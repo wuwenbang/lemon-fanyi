@@ -1,7 +1,7 @@
 # lemon-fanyi
 ## install 
 ```sh
-yarn add lemon fanyi
+yarn add lemon-fanyi
 ```
 ## usage 
 ```sh
